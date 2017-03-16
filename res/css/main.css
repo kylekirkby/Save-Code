@@ -1,0 +1,273 @@
+.newNav {
+
+	z-index: 10;
+
+
+	}
+
+.footerPanel{
+
+	width:30%;
+	height:100px;
+	padding:20px;
+  	position:absolute;
+     bottom:0;
+     left:50px;
+    color:#FFF;
+}
+.panelContent {
+
+height:auto;
+
+}
+
+.mainContentNav{
+	height:auto;
+	width:100%;
+	border-bottom: 1px solid black;
+
+}
+.pasteCodeArea {
+
+	height:400px;
+	width:80%;
+	resize: none;
+	padding:10px;
+	margin:10px;
+
+
+
+}
+.breadcrumbLarge{
+
+height:50px;
+font: 30px bold arial;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+	background-image:url(../../img/background.jpeg);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.squareIcon{
+	position: relative;
+	width: 20%;		/* desired width */
+	border: 1px solid black;
+	margin:10px;
+	float:left;
+}
+.squareIcon:before{
+	content: "";
+	display: block;
+	padding-top: 100%; 	/* initial ratio of 1:1*/
+}
+
+
+.left-sidebar {
+	position: absolute;
+	padding: 20px;
+	top: 0;
+	left: 0;
+	width: 30%;
+	height: 100%;
+	-moz-box-shadow: 0 0 5px #000;
+	-webkit-box-shadow: 0 0 5px #000;
+	box-shadow: 0 0 5px #000;
+	z-index: 10;
+	overflow: auto;
+	
+}
+::-webkit-scrollbar {
+	width: 20px;
+}
+
+::-webkit-scrollbar-track {
+	background: none;
+}
+
+::-webkit-scrollbar-thumb {
+	background: -webkit-linear-gradient(left, #a3a3a3, #3d3d3d);
+	border: 1px solid #333;
+	box-shadow: inset 1px 0 0 rgba(255, 255, 255, 0.4);
+		-webkit-transition: background 200ms ease-in-out 0s;
+	-moz-transition: background 200ms ease-in-out 0s;
+	-ms-transition: background 200ms ease-in-out 0s;
+	-o-transition: background 200ms ease-in-out 0s;
+	transition: background 200ms ease-in-out 0s;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: -webkit-linear-gradient(left, #000000, #3d3d3d);
+	border: 1px solid #333;
+	box-shadow: inset 1px 0 0 rgba(255, 255, 255, 0.4);
+}
+input::-moz-focus-inner { 
+  border: 0; 
+}
+.main-content 
+{
+  clear: right;
+  position:fixed;
+  top: 0;
+  left: 0px;
+  right: 0px;
+  width:100%;
+  height:100%;
+  margin-right: 20px;
+  margin-left:30%;
+  overflow:scroll;
+  overflow-x:hidden;
+  background: #f0f0f0;
+
+}
+.logo {
+	background-image: url(../../img/logo.fw.png);
+	padding: 10px;
+	height: 50px;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+a {
+   outline: 0;
+}
+.splashScreen {
+display:none;
+height:100%;
+width:100%;
+padding:40px;
+position:fixed;
+ left:0px;
+  top:0px; 
+  z-index:100;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center center;
+
+	
+}
+.greetBox {
+	top:20%;
+	position:fixed;
+	width:100%;
+
+-webkit-box-shadow: 0 0 30px 20px #000000;
+box-shadow: 0 0 30px 20px #000000;
+
+
+}
+.facebookLogin{
+
+width:200px;
+height:40px;
+
+background-image:url(../img/facebookLogin.png);
+background-repeat: no-repeat;
+background-position: center;
+
+}
+
+.formArea {
+
+
+padding:40px;
+width:80%;
+height:auto;
+
+}
+.formArea input {
+
+width:80%;
+margin:10px;
+
+}
+
+.formArea #textarea1{
+
+	width:80%;
+	height:100px;
+	resize: none;
+	padding:10px;
+	margin:10px;
+}
+
+.privateBtns {
+
+
+	margin-left:10px;
+	width:400px;
+	float:left;
+	text-align: left;
+
+
+}
+
+.languageInput {
+
+
+	width:80%;
+	margin:10px;
+
+}
+
+.input-recaptcha{
+ width:172px;   
+}
+
+.captchaArea {
+
+	margin:10px;
+
+}
+
+
+.left-inner-addon {
+    position: relative;
+}
+.left-inner-addon input {
+    padding-left: 30px;    
+}
+.left-inner-addon i {
+    position: absolute;
+    padding: 10px 12px;
+    pointer-events: none;
+}
+.mainFormArea {
+
+	width:100%;
+	height:auto;
+	margin: 0 auto;
+}
+
+#alertBoxPast {
+
+	width:500px;
+	postion:relative;
+	overflow:hidden;
+
+}
+.accountActive {
+
+	width:50%;
+	margin: auto auto;
+	height:auto;
+	padding:20px;
+	background-color:#FFF;
+	-webkit-box-shadow: 0 0 30px 20px #000000;
+	box-shadow: 0 0 30px 20px #000000;
+
+
+}
